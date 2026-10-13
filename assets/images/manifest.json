@@ -1,0 +1,170 @@
+[
+  {
+    "file": "studio-640.webp",
+    "source": "3돌 샘플/정면.JPG",
+    "width": 640,
+    "height": 960,
+    "bytes": 38542
+  },
+  {
+    "file": "studio-1200.webp",
+    "source": "3돌 샘플/정면.JPG",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 95476
+  },
+  {
+    "file": "portrait-640.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205956.665.jpg",
+    "width": 640,
+    "height": 853,
+    "bytes": 51754
+  },
+  {
+    "file": "portrait-1200.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205956.665.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 135036
+  },
+  {
+    "file": "guitar-640.webp",
+    "source": "3돌 샘플/광고2.JPG",
+    "width": 640,
+    "height": 960,
+    "bytes": 38736
+  },
+  {
+    "file": "guitar-1200.webp",
+    "source": "3돌 샘플/광고2.JPG",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 102866
+  },
+  {
+    "file": "outdoor-640.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205338.275.jpg",
+    "width": 640,
+    "height": 853,
+    "bytes": 63140
+  },
+  {
+    "file": "outdoor-1200.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205338.275.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 245496
+  },
+  {
+    "file": "tambourine-640.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205631.505.jpg",
+    "width": 640,
+    "height": 853,
+    "bytes": 58052
+  },
+  {
+    "file": "tambourine-1200.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205631.505.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 136000
+  },
+  {
+    "file": "playful-640.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205835.330.jpg",
+    "width": 640,
+    "height": 853,
+    "bytes": 89806
+  },
+  {
+    "file": "playful-1200.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T205835.330.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 198314
+  },
+  {
+    "file": "balloon-640.webp",
+    "source": "모델링 샘플/img - 2026-06-09T203852.758.jpg",
+    "width": 640,
+    "height": 480,
+    "bytes": 77900
+  },
+  {
+    "file": "balloon-1200.webp",
+    "source": "모델링 샘플/img - 2026-06-09T203852.758.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 222164
+  },
+  {
+    "file": "guitar-wide-640.webp",
+    "source": "3돌 샘플/CB3I3731.JPG",
+    "width": 640,
+    "height": 427,
+    "bytes": 25238
+  },
+  {
+    "file": "guitar-wide-1200.webp",
+    "source": "3돌 샘플/CB3I3731.JPG",
+    "width": 1200,
+    "height": 800,
+    "bytes": 68532
+  },
+  {
+    "file": "focus-640.webp",
+    "source": "키즈노트 샘플/img - 2026-06-11T103815.489.jpg",
+    "width": 640,
+    "height": 853,
+    "bytes": 28554
+  },
+  {
+    "file": "focus-1200.webp",
+    "source": "키즈노트 샘플/img - 2026-06-11T103815.489.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 65000
+  },
+  {
+    "file": "closeup-640.webp",
+    "source": "모델링 샘플/img - 2026-06-09T203634.747.jpg",
+    "width": 640,
+    "height": 480,
+    "bytes": 37280
+  },
+  {
+    "file": "closeup-1200.webp",
+    "source": "모델링 샘플/img - 2026-06-09T203634.747.jpg",
+    "width": 1200,
+    "height": 900,
+    "bytes": 84816
+  },
+  {
+    "file": "studio-full-640.webp",
+    "source": "3돌 샘플/CB3I3719.JPG",
+    "width": 640,
+    "height": 960,
+    "bytes": 33386
+  },
+  {
+    "file": "studio-full-1200.webp",
+    "source": "3돌 샘플/CB3I3719.JPG",
+    "width": 1200,
+    "height": 1800,
+    "bytes": 78646
+  },
+  {
+    "file": "cake-640.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T204244.559.jpg",
+    "width": 640,
+    "height": 853,
+    "bytes": 63554
+  },
+  {
+    "file": "cake-1200.webp",
+    "source": "키즈노트 샘플/img - 2026-06-09T204244.559.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 145738
+  }
+]
