@@ -2,7 +2,9 @@
 
 김일린 키즈 모델·아동 연기 포트폴리오 홈페이지. 제공된 프로필과 실제 촬영 사진을 바탕으로 만들었습니다.
 
-사이트: https://yucef-84.github.io/E-LINE/
+공식 사이트: https://e-line.steibu.com/
+
+GitHub Pages 미러: https://yucef-84.github.io/E-LINE/
 
 ## 구성
 
@@ -33,7 +35,23 @@ node scripts/build.mjs
 
 검증은 내부 앵커, 중복 ID, 로컬 리소스와 확대 사진 파일, JavaScript 문법을 확인합니다. 빌드는 공개 파일만 `dist/`로 복사합니다. npm 사용 환경에서는 `npm run dev`, `npm run check`, `npm run build`도 동일하게 동작합니다.
 
-## 배포
+## Cloudflare Workers 배포
+
+Cloudflare의 `e-line` Worker는 `main` 브랜치를 연결하고 아래 빌드 설정을 사용합니다.
+
+| 항목 | 설정 |
+|---|---|
+| 루트 디렉터리 | `/` |
+| 빌드 명령 | `npm run build` |
+| 배포 명령 | `npx wrangler deploy --config wrangler.jsonc` |
+
+`wrangler.jsonc`의 `assets.directory`는 `./dist`입니다. 빌드가 홈페이지 HTML/CSS/JavaScript, 이미지, 폰트, 공개 다운로드 자료만 이 폴더에 복사하며, 모든 배포 파일이 Cloudflare의 파일당 25 MiB 제한 이내인지 확인합니다. 검증 또는 용량 검사에 실패하면 배포 전에 빌드가 중단됩니다.
+
+`routes`에는 `e-line.steibu.com`을 `custom_domain: true`로 지정하여 공식 도메인 연결도 배포 설정과 함께 관리합니다. Cloudflare가 해당 호스트의 DNS와 HTTPS 인증서를 관리합니다.
+
+저장소 루트와 `node_modules`, 개발 스크립트, 기획 문서는 업로드하지 않습니다. `dist/`와 `.wrangler/`는 생성 파일이므로 Git에 포함하지 않습니다. 공식 도메인은 `https://e-line.steibu.com/`이며 canonical, OG, 구조화 데이터, robots.txt와 sitemap.xml도 이 주소를 사용합니다. Cloudflare 기본 주소는 `https://e-line.jijimmi.workers.dev/`입니다.
+
+## GitHub Pages 배포
 
 `main`에 푸시하면 `.github/workflows/pages.yml`이 검증·빌드 후 GitHub Pages에 배포합니다. 저장소의 **Settings → Pages → Source**는 **GitHub Actions**를 사용합니다. 상대 경로를 사용해 `/E-LINE/` 하위 경로에서도 모든 리소스가 동작합니다.
 
